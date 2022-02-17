@@ -21,6 +21,75 @@
 .footer {
   background-color: #E3E3E3; }
 
+.main {
+  display: flex;
+  flex-direction: column; }
+  .main .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      .main .section .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section .textosTrabajo div img {
+        width: 50%; }
+  .main .divisor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E3E3E3;
+    height: 6em;
+    align-items: center; }
+    .main .divisor p {
+      font-size: 0.9375em;
+      font-family: 'Abel', sans-serif;
+      font-family: 'Source Code Pro', monospace;
+      font-weight: bold;
+      text-align: start; }
+  .main .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section2 .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      .main .section2 .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section2 .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section2 .textosTrabajo div img {
+        width: 50%; }
+
 .header nav {
   display: flex;
   list-style: none;
