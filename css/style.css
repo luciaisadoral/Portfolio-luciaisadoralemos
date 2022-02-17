@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
+
+.trabajos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+  .trabajos div {
+    width: 50%;
+    display: flex;
+    justify-content: center; }
+    .trabajos div img {
+      width: 80%;
+      margin: 50px; }
+
+.footer {
+  background-color: #E3E3E3; }
+
+.header nav {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .header nav a {
+    text-decoration: none; }
+  .header nav h1 {
+    font-size: 1.375em;
+    color: #4F4F4F;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    margin: 1.875em; }
+  .header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; }
+    .header nav ul li {
+      padding: 0 1em;
+      margin: 22px; }
+      .header nav ul li a {
+        color: #4F4F4F;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 0.9375em; }
+
+.header .headerHijo {
+  background-color: #E3E3E3; }
+  .header .headerHijo p {
+    font-size: 0.9375em;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    margin: 3.75em;
+    padding: 1.25em;
+    text-align: center; }
+
+.footer nav {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .footer nav h1 {
+    font-size: 1.375em;
+    color: #4F4F4F;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    margin: 1.875em; }
+  .footer nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; }
+    .footer nav ul li {
+      padding: 0 1em;
+      margin: 22px; }
+      .footer nav ul li a {
+        color: #4F4F4F;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 0.9375em; }

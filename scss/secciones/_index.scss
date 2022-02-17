@@ -1,0 +1,25 @@
+     
+   .trabajos{
+       
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+       div{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+           img{
+
+            width: 80%;
+            margin: 50px;
+
+           }
+       }
+   }
+
+.footer{
+    background-color: #E3E3E3;
+}
