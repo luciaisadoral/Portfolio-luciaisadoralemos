@@ -18,73 +18,9 @@
 @import "./variables/colores.scss";
 @import "./variables/typography.scss";
 
- 
+
 .header {
-    nav{
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    a {
-        text-decoration: none;
-    }
-
-    h1 {
-        font-size: $tertiarysize;
-        color: $primarycolor;
-        font-family: 'Abel', sans-serif;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: normal;
-        margin: 1.875em;
-
-    }
-
-    
-    ul{
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-     
-   
-    li {
-    
-        padding: 0 1em;
-        margin: 22px;
-
-        a {
-            color: $primarycolor;
-            text-decoration: none;
-            font-family: 'Roboto', sans-serif;
-            font-family: 'Source Code Pro', monospace;
-            font-size: 0.9375em;
-        }
-    }
- }
-}
-    .headerHijo{
-
-        background-color: $tertiary;
-        p{
-            font-size: 0.9375em;
-            font-family: 'Abel', sans-serif;
-            font-family: 'Roboto', sans-serif;
-            font-family: 'Source Code Pro', monospace;
-            font-weight:normal;
-            margin: 3.75em;
-            padding: 1.25em;
-            text-align: center;     
-        }
-     
-    }
-
-} 
-
-
-.footer{
-    nav{
+    nav {
         display: flex;
         list-style: none;
         flex-direction: row;
@@ -92,37 +28,101 @@
         justify-content: space-between;
         align-items: flex-end;
 
-    h1{
-        font-size: $tertiarysize;
-        color: $primarycolor;
-        font-family: 'Abel', sans-serif;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: normal;
-        margin: 1.875em;
-    }
-    ul{
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-     
-   
-    li {
-    
-        padding: 0 1em;
-        margin: 22px;
-
         a {
-            color: $primarycolor;
             text-decoration: none;
-            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            font-size: $tertiarysize;
+            color: $primarycolor;
+            font-family: 'Abel', sans-serif;
             font-family: 'Source Code Pro', monospace;
-            font-size: 0.9375em;
+            font-weight: normal;
+            margin: 1.875em;
+
+        }
+
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+
+
+            li {
+
+                padding: 0 1em;
+                margin: 22px;
+
+                a {
+                    color: $primarycolor;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Source Code Pro', monospace;
+                    font-size: 0.9375em;
+                }
+            }
         }
     }
- }
+
+    .headerHijo {
+
+        background-color: $tertiary;
+
+        p {
+            font-size: 0.9375em;
+            font-family: 'Abel', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Source Code Pro', monospace;
+            font-weight: normal;
+            margin: 3.75em;
+            padding: 1.25em;
+            text-align: center;
+        }
 
     }
+
 }
 
 
-  
+.footer {
+    nav {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        h1 {
+            font-size: $tertiarysize;
+            color: $primarycolor;
+            font-family: 'Abel', sans-serif;
+            font-family: 'Source Code Pro', monospace;
+            font-weight: normal;
+            margin: 1.875em;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+
+
+            li {
+
+                padding: 0 1em;
+                margin: 22px;
+
+                a {
+                    color: $primarycolor;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Source Code Pro', monospace;
+                    font-size: 0.9375em;
+                }
+            }
+        }
+
+    }
+}

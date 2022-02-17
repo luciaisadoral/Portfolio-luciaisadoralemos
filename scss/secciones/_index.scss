@@ -1,25 +1,24 @@
-     
-   .trabajos{
-       
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+     .trabajos {
 
-       div{
-            width: 50%;
-            display: flex;
-            justify-content: center;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
 
-           img{
+         div {
+             width: 50%;
+             display: flex;
+             justify-content: center;
 
-            width: 80%;
-            margin: 50px;
+             img {
 
-           }
-       }
-   }
+                 width: 80%;
+                 margin: 50px;
 
-.footer{
-    background-color: #E3E3E3;
-}
+             }
+         }
+     }
+
+     .footer {
+         background-color: #E3E3E3;
+     }
