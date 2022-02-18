@@ -5,6 +5,12 @@
   margin: 0%;
   box-sizing: border-box; }
 
+.header nav h1 {
+  font-family: 'Abel', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: normal;
+  font-size: 1.563rem; }
+
 .trabajos {
   display: flex;
   flex-direction: row;
@@ -15,7 +21,7 @@
     display: flex;
     justify-content: center; }
     .trabajos div img {
-      width: 80%;
+      width: 90%;
       margin: 50px; }
 
 .footer {
@@ -87,8 +93,199 @@
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section2 .textosTrabajo div img {
+      .main .section2 .textosTrabajo img {
         width: 50%; }
+
+.main {
+  display: flex;
+  flex-direction: column; }
+  .main .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      .main .section .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section .textosTrabajo div img {
+        width: 50%; }
+  .main .divisor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E3E3E3;
+    height: 6em;
+    align-items: center; }
+    .main .divisor p {
+      font-size: 0.9375em;
+      font-family: 'Abel', sans-serif;
+      font-family: 'Source Code Pro', monospace;
+      font-weight: bold;
+      text-align: start; }
+  .main .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section2 .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 3em; }
+      .main .section2 .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section2 .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section2 .textosTrabajo img {
+        width: 50%; }
+
+.main {
+  display: flex;
+  flex-direction: column; }
+  .main .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      .main .section .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section .textosTrabajo div img {
+        width: 50%; }
+  .main .divisor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E3E3E3;
+    height: 6em;
+    align-items: center; }
+    .main .divisor p {
+      font-size: 0.9375em;
+      font-family: 'Abel', sans-serif;
+      font-family: 'Source Code Pro', monospace;
+      font-weight: bold;
+      text-align: start; }
+  .main .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section2 .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 3em; }
+      .main .section2 .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section2 .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section2 .textosTrabajo img {
+        width: 50%; }
+
+.headerHijo p {
+  font-size: 15px;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+  background-color: #E3E3E3; }
+
+.trabajosPadre1 {
+  grid-area: trabajosPadre1; }
+
+.trabajosPadre2 {
+  grid-area: trabajosPadre2; }
+
+.trabajosPadre1 {
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.trabajosPadre2 {
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.yosoy {
+  margin: 150px; }
+
+.buttondesc {
+  background-color: #E3E3E3; }
+
+.presentacion2 {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.presentacion2 p {
+  margin-left: 200px;
+  margin-right: 400px;
+  margin-bottom: 250px; }
+
+.presentacion1 {
+  padding-left: 200px; }
 
 .header nav {
   display: flex;
@@ -100,11 +297,7 @@
   .header nav a {
     text-decoration: none; }
   .header nav h1 {
-    font-size: 1.375em;
     color: #4F4F4F;
-    font-family: 'Abel', sans-serif;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: normal;
     margin: 1.875em; }
   .header nav ul {
     list-style-type: none;

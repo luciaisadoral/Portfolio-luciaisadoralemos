@@ -1,0 +1,67 @@
+
+.headerHijo p{
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:normal;
+    padding: 20px;
+    text-align: center;
+    background-color: #E3E3E3;
+}
+
+.trabajosPadre1{
+    grid-area: trabajosPadre1;
+}
+
+.trabajosPadre2{
+    grid-area: trabajosPadre2;
+
+}
+
+
+.trabajosPadre1{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.trabajosPadre2{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+.yosoy{
+    margin: 150px;
+}
+
+
+
+.buttondesc{
+    background-color: #E3E3E3;
+
+}
+
+
+.presentacion2{
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.presentacion2 p{
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-bottom: 250px;
+}
+
+.presentacion1{
+    padding-left: 200px;
+}

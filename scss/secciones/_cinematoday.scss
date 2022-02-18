@@ -1,78 +1,23 @@
-
-.main{
+.main {
     display: flex;
     flex-direction: column;
 
-    .section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 3.75em;
-    align-items: center;
-    
-
-    .textosTrabajo{
-
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-
-        p{
-            font-size: 0.9375em;
-            font-family: 'Abel', sans-serif;
-            font-family: 'Source Code Pro', monospace;
-            font-weight: normal;
-            text-align: start;
-            padding: 01.25em;
-        }
-
-        h3{
-            font-size: 0.9375em;
-            font-family: 'Abel', sans-serif;
-            font-family: 'Source Code Pro', monospace;
-            font-weight: bold;
-            text-align: start;
-        }
-
-        div img{
-            width: 50%;
-        }
-    }
-      }
-
-    .divisor{
+    .section {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        background-color: #E3E3E3;
-        height: 6em;
-        align-items: center;
-        p{
-            font-size: 0.9375em;
-            font-family: 'Abel', sans-serif;
-            font-family: 'Source Code Pro', monospace;
-            font-weight: bold;
-            text-align: start;
-        }
-    }
-
-    .section2{
-        display: flex;
-        flex-direction: row-reverse;
         flex-wrap: nowrap;
         align-items: center;
         margin: 3.75em;
         align-items: center;
-        
-    
-        .textosTrabajo{
-    
+
+
+        .textosTrabajo {
+
             display: flex;
             flex-direction: column;
             width: 50%;
-    
-            p{
+
+            p {
                 font-size: 0.9375em;
                 font-family: 'Abel', sans-serif;
                 font-family: 'Source Code Pro', monospace;
@@ -80,20 +25,76 @@
                 text-align: start;
                 padding: 01.25em;
             }
-    
-            h3{
+
+            h3 {
                 font-size: 0.9375em;
                 font-family: 'Abel', sans-serif;
                 font-family: 'Source Code Pro', monospace;
                 font-weight: bold;
                 text-align: start;
             }
-    
-            div img{
+
+            div img {
                 width: 50%;
             }
         }
-          }
+    }
+
+    .divisor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #E3E3E3;
+        height: 6em;
+        align-items: center;
+
+        p {
+            font-size: 0.9375em;
+            font-family: 'Abel', sans-serif;
+            font-family: 'Source Code Pro', monospace;
+            font-weight: bold;
+            text-align: start;
+        }
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 3.75em;
+        align-items: center;
+
+
+        .textosTrabajo {
+
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 3em;
+
+            p {
+                font-size: 0.9375em;
+                font-family: 'Abel', sans-serif;
+                font-family: 'Source Code Pro', monospace;
+                font-weight: normal;
+                text-align: start;
+                padding: 01.25em;
+            }
+
+            h3 {
+                font-size: 0.9375em;
+                font-family: 'Abel', sans-serif;
+                font-family: 'Source Code Pro', monospace;
+                font-weight: bold;
+                text-align: start;
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+    }
 
 
 }

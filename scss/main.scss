@@ -5,18 +5,26 @@
 }
 
 
-// IMPORTACIONES
+// IMPORTACIONES VARIABLES
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import "./variables/colors";
+@import "./variables/typography";
+@import "./variables/extend";
+@import "./variables/maps";
+
+//IMPORTACIONES
+
 @import "./secciones/index";
 @import "./secciones/behalthy";
 @import "./secciones/cinematoday";
 @import "./secciones/happyfeel";
 @import "./secciones/ministeriopublico";
 @import "./secciones/contacto";
-@import "./variables/colores.scss";
-@import "./variables/typography.scss";
+
+// IMPORTACIONES FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
 
 
 .header {
@@ -27,17 +35,17 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-end;
+        
+            
+    
 
         a {
             text-decoration: none;
         }
 
         h1 {
-            font-size: $tertiarysize;
             color: $primarycolor;
-            font-family: 'Abel', sans-serif;
-            font-family: 'Source Code Pro', monospace;
-            font-weight: normal;
+            @extend %Stylelogo;
             margin: 1.875em;
 
         }
@@ -49,11 +57,12 @@
             flex-direction: row;
 
 
+
             li {
 
                 padding: 0 1em;
                 margin: 22px;
-
+  
                 a {
                     color: $primarycolor;
                     text-decoration: none;
@@ -68,6 +77,7 @@
     .headerHijo {
 
         background-color: $tertiary;
+        
 
         p {
             font-size: 0.9375em;
@@ -81,6 +91,7 @@
         }
 
     }
+
 
 }
 
@@ -126,3 +137,6 @@
 
     }
 }
+
+
+
