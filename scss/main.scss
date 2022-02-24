@@ -12,7 +12,7 @@
 @import "./variables/extend";
 @import "./variables/maps";
 
-//IMPORTACIONES
+//IMPORTACIONES SECCIONES
 
 @import "./secciones/index";
 @import "./secciones/behalthy";
@@ -82,10 +82,8 @@
         p {
             font-size: 0.9375em;
             font-family: 'Abel', sans-serif;
-            font-family: 'Roboto', sans-serif;
             font-family: 'Source Code Pro', monospace;
             font-weight: normal;
-            margin: 3.75em;
             padding: 1.25em;
             text-align: center;
         }

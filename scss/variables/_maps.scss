@@ -1,4 +1,13 @@
-$marcapersonal:(
-    marca: black;
-)
+$marcapersonal:(marca: black);
+
+
+/* BUCLE */ 
+
+@each $frases, $color in $marcapersonal {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+    }
+    
+}
 

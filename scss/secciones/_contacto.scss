@@ -1,34 +1,27 @@
+/* CONTACTO */ 
+
 
 .headerHijo p{
-    font-size: 15px;
+    font-size: 0.938em;
     font-family: 'Abel', sans-serif;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
     font-weight:normal;
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
     background-color: #E3E3E3;
 }
 
-.trabajosPadre1{
-    grid-area: trabajosPadre1;
-}
-
-.trabajosPadre2{
-    grid-area: trabajosPadre2;
-
-}
 
 
 .trabajosPadre1{
-    min-height: 120px;
+    min-height: 7.5em;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
 }
 .trabajosPadre2{
-    min-height: 120px;
+    min-height: 7.5em;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -37,7 +30,11 @@
 
 
 .yosoy{
-    margin: 150px;
+    margin-right: 9.375em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    float: left;
 }
 
 
@@ -49,19 +46,17 @@
 
 
 .presentacion2{
-    min-height: 120px;
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
     align-items: center;
 }
 
 .presentacion2 p{
-    margin-left: 200px;
-    margin-right: 400px;
-    margin-bottom: 250px;
+    margin-left: 12.5em;
+    margin-right: 25em;
+    margin-bottom: 15.625em;
 }
 
 .presentacion1{
-    padding-left: 200px;
+    padding-left: 12.5em;
 }

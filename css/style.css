@@ -5,12 +5,21 @@
   margin: 0%;
   box-sizing: border-box; }
 
+/* COLORS */
+/* TYPOGRAPHY */
+/* EXTEND*/
 .header nav h1 {
   font-family: 'Abel', sans-serif;
   font-family: 'Source Code Pro', monospace;
   font-weight: normal;
   font-size: 1.563rem; }
 
+/* BUCLE */
+.marca {
+  color: black;
+  font-weight: bold; }
+
+/* INDEX */
 .trabajos {
   display: flex;
   flex-direction: row;
@@ -20,6 +29,8 @@
     width: 50%;
     display: flex;
     justify-content: center; }
+    .trabajos div .a {
+      text-decoration: none; }
     .trabajos div img {
       width: 90%;
       margin: 50px; }
@@ -27,6 +38,7 @@
 .footer {
   background-color: #E3E3E3; }
 
+/* BE HEALTHY */
 .main {
   display: flex;
   flex-direction: column; }
@@ -96,76 +108,7 @@
       .main .section2 .textosTrabajo img {
         width: 50%; }
 
-.main {
-  display: flex;
-  flex-direction: column; }
-  .main .section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 3.75em;
-    align-items: center; }
-    .main .section .textosTrabajo {
-      display: flex;
-      flex-direction: column;
-      width: 50%; }
-      .main .section .textosTrabajo p {
-        font-size: 0.9375em;
-        font-family: 'Abel', sans-serif;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: normal;
-        text-align: start;
-        padding: 01.25em; }
-      .main .section .textosTrabajo h3 {
-        font-size: 0.9375em;
-        font-family: 'Abel', sans-serif;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: bold;
-        text-align: start; }
-      .main .section .textosTrabajo div img {
-        width: 50%; }
-  .main .divisor {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #E3E3E3;
-    height: 6em;
-    align-items: center; }
-    .main .divisor p {
-      font-size: 0.9375em;
-      font-family: 'Abel', sans-serif;
-      font-family: 'Source Code Pro', monospace;
-      font-weight: bold;
-      text-align: start; }
-  .main .section2 {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 3.75em;
-    align-items: center; }
-    .main .section2 .textosTrabajo {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      margin: 3em; }
-      .main .section2 .textosTrabajo p {
-        font-size: 0.9375em;
-        font-family: 'Abel', sans-serif;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: normal;
-        text-align: start;
-        padding: 01.25em; }
-      .main .section2 .textosTrabajo h3 {
-        font-size: 0.9375em;
-        font-family: 'Abel', sans-serif;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: bold;
-        text-align: start; }
-      .main .section2 .textosTrabajo img {
-        width: 50%; }
-
+/* CINEMATODAY */
 .main {
   display: flex;
   flex-direction: column; }
@@ -236,56 +179,194 @@
       .main .section2 .textosTrabajo img {
         width: 50%; }
 
+/* HAPPY FEEL */
+.main {
+  display: flex;
+  flex-direction: column; }
+  .main .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      .main .section .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section .textosTrabajo div img {
+        width: 50%; }
+  .main .divisor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E3E3E3;
+    height: 6em;
+    align-items: center; }
+    .main .divisor p {
+      font-size: 0.9375em;
+      font-family: 'Abel', sans-serif;
+      font-family: 'Source Code Pro', monospace;
+      font-weight: bold;
+      text-align: start; }
+  .main .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section2 .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 3em; }
+      .main .section2 .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section2 .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section2 .textosTrabajo img {
+        width: 50%; }
+
+/* MINISTERIO PUBLICO */
+.main {
+  display: flex;
+  flex-direction: column; }
+  .main .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      .main .section .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section .textosTrabajo div img {
+        width: 50%; }
+  .main .divisor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E3E3E3;
+    height: 6em;
+    align-items: center; }
+    .main .divisor p {
+      font-size: 0.9375em;
+      font-family: 'Abel', sans-serif;
+      font-family: 'Source Code Pro', monospace;
+      font-weight: bold;
+      text-align: start; }
+  .main .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.75em;
+    align-items: center; }
+    .main .section2 .textosTrabajo {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 3em; }
+      .main .section2 .textosTrabajo p {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: normal;
+        text-align: start;
+        padding: 01.25em; }
+      .main .section2 .textosTrabajo h3 {
+        font-size: 0.9375em;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        text-align: start; }
+      .main .section2 .textosTrabajo img {
+        width: 50%; }
+
+/* CONTACTO */
 .headerHijo p {
-  font-size: 15px;
+  font-size: 0.938em;
   font-family: 'Abel', sans-serif;
-  font-family: 'Roboto', sans-serif;
   font-family: 'Source Code Pro', monospace;
   font-weight: normal;
-  padding: 20px;
+  padding: 1.25em;
   text-align: center;
   background-color: #E3E3E3; }
 
 .trabajosPadre1 {
-  grid-area: trabajosPadre1; }
-
-.trabajosPadre2 {
-  grid-area: trabajosPadre2; }
-
-.trabajosPadre1 {
-  min-height: 120px;
+  min-height: 7.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center; }
 
 .trabajosPadre2 {
-  min-height: 120px;
+  min-height: 7.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center; }
 
 .yosoy {
-  margin: 150px; }
+  margin-right: 9.375em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  float: left; }
 
 .buttondesc {
   background-color: #E3E3E3; }
 
 .presentacion2 {
-  min-height: 120px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center; }
 
 .presentacion2 p {
-  margin-left: 200px;
-  margin-right: 400px;
-  margin-bottom: 250px; }
+  margin-left: 12.5em;
+  margin-right: 25em;
+  margin-bottom: 15.625em; }
 
 .presentacion1 {
-  padding-left: 200px; }
+  padding-left: 12.5em; }
 
 .header nav {
   display: flex;
@@ -318,10 +399,8 @@
   .header .headerHijo p {
     font-size: 0.9375em;
     font-family: 'Abel', sans-serif;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
     font-weight: normal;
-    margin: 3.75em;
     padding: 1.25em;
     text-align: center; }
 
