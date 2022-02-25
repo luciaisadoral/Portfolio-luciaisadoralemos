@@ -29,17 +29,13 @@
     width: 50%;
     display: flex;
     justify-content: center; }
-    .trabajos div a {
-      text-decoration: none; }
-      .trabajos div a h3 {
-        font-size: 1.063rem;
-        color: #4F4F4F;
-        font-family: 'Abel', sans-serif;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: bold; }
     .trabajos div img {
       width: 90%;
       margin: 50px; }
+      .trabajos div img:hover {
+        transform: scale(1);
+        transition-property: all;
+        opacity: 0.8; }
 
 .footer {
   background-color: #E3E3E3; }
@@ -48,12 +44,10 @@
 @media (max-width: 576px) {
   .trabajos {
     flex-direction: column;
-    margin: 20px; }
+    margin: 20px;
+    width: 100%; }
     .trabajos div {
-      width: 100%; }
-      .trabajos div a h3 {
-        visibility: hidden;
-        display: none; } }
+      width: 100%; } }
 
 /* BE HEALTHY */
 .main.trabajos {
@@ -431,7 +425,7 @@
     width: 70%; }
 
 .btn {
-  background-color: #4F4F4F;
+  background-color: #c0bdbd;
   color: white; }
 
 .section.contacto2 {
@@ -468,6 +462,8 @@
   .header nav h1 {
     color: #4F4F4F;
     margin: 1.875em; }
+    .header nav h1:hover {
+      color: black; }
   .header nav ul {
     list-style-type: none;
     display: flex;
@@ -481,6 +477,8 @@
         font-family: 'Roboto', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-size: 0.9375em; }
+        .header nav ul li a:hover {
+          color: black; }
 
 .header .headerHijo {
   background-color: #E3E3E3; }
@@ -519,6 +517,8 @@
         font-family: 'Roboto', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-size: 0.9375em; }
+        .footer nav ul li a:hover {
+          color: black; }
 
 /* MEDIA QUERYS */
 @media (max-width: 576px) {

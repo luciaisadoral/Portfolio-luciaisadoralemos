@@ -47,6 +47,9 @@
             color: $primarycolor;
             @extend %Stylelogo;
             margin: 1.875em;
+            &:hover{
+                color: black;
+            }
 
         }
 
@@ -69,6 +72,10 @@
                     font-family: 'Roboto', sans-serif;
                     font-family: 'Source Code Pro', monospace;
                     font-size: 0.9375em;
+                    &:hover{
+                        color: black;
+                    }
+        
                 }
             }
         }
@@ -129,6 +136,10 @@
                     font-family: 'Roboto', sans-serif;
                     font-family: 'Source Code Pro', monospace;
                     font-size: 0.9375em;
+                    &:hover{
+                        color: black;
+                    }
+        
                 }
             }
         }

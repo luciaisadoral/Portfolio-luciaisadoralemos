@@ -12,22 +12,18 @@
              display: flex;
              justify-content: center;
 
-             a {
-                 text-decoration: none;
-
-                 h3 {
-                     font-size: $primarysize;
-                     color: $primarycolor;
-                     font-family: 'Abel', sans-serif;
-                     font-family: 'Source Code Pro', monospace;
-                     font-weight: bold;
-                 }
-             }
+            
 
              img {
 
                  width: 90%;
                  margin: 50px;
+
+                 &:hover{
+                    transform: scale(1);
+                    transition-property: all;
+                    opacity: 0.8;
+                 }
 
              }
 
@@ -49,18 +45,12 @@
 
              flex-direction: column;
              margin: 20px;
+             width: 100%;
 
 
              div {
                  width: 100%;
 
-                 a {
-
-                     h3 {
-                         visibility: hidden;
-                         display: none;
-                     }
-                 }
 
              }
 
