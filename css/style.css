@@ -125,7 +125,8 @@
 @media (max-width: 576px) {
   .main.trabajos .section {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section .imagen2 {
       width: 100%;
       padding: 20px; }
@@ -134,7 +135,8 @@
     padding: 20px; }
   .main.trabajos .section2.trabajos {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section2.trabajos .imagen2 {
       width: 100%;
       padding: 20px; } }
@@ -215,7 +217,8 @@
 @media (max-width: 576px) {
   .main.trabajos .section {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section .imagen2 {
       width: 100%;
       padding: 20px; }
@@ -224,7 +227,8 @@
     padding: 20px; }
   .main.trabajos .section2.trabajos {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section2.trabajos .imagen2 {
       width: 100%;
       padding: 20px; } }
@@ -305,7 +309,8 @@
 @media (max-width: 576px) {
   .main.trabajos .section {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section .imagen2 {
       width: 100%;
       padding: 20px; }
@@ -314,7 +319,8 @@
     padding: 20px; }
   .main.trabajos .section2.trabajos {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section2.trabajos .imagen2 {
       width: 100%;
       padding: 20px; } }
@@ -395,7 +401,8 @@
 @media (max-width: 576px) {
   .main.trabajos .section {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section .imagen2 {
       width: 100%;
       padding: 20px; }
@@ -404,7 +411,8 @@
     padding: 20px; }
   .main.trabajos .section2.trabajos {
     flex-direction: column;
-    margin: 0; }
+    margin: 0;
+    align-items: center; }
     .main.trabajos .section2.trabajos .imagen2 {
       width: 100%;
       padding: 20px; } }
