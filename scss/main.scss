@@ -35,9 +35,9 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-end;
-        
-            
-    
+
+
+
 
         a {
             text-decoration: none;
@@ -62,7 +62,7 @@
 
                 padding: 0 1em;
                 margin: 22px;
-  
+
                 a {
                     color: $primarycolor;
                     text-decoration: none;
@@ -77,7 +77,7 @@
     .headerHijo {
 
         background-color: $tertiary;
-        
+
 
         p {
             font-size: 0.9375em;
@@ -138,3 +138,68 @@
 
 
 
+/* MEDIA QUERYS */
+
+@media (max-width: 576px) {
+
+    .header {
+
+        nav {
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+               
+                margin: 0.875em;
+                
+    
+            }
+
+            ul {
+
+                flex-direction: row;
+
+
+                li {
+
+                    padding: 0 1em;
+                    margin: 22px;
+
+                }
+            }
+
+        }
+    }
+
+    .footer {
+
+        nav {
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+               
+                margin: 0.875em;
+                
+    
+            }
+
+            ul {
+
+                flex-direction: row;
+
+
+                li {
+
+                    padding: 0 1em;
+                    margin: 22px;
+
+                }
+            }
+
+        }
+    }
+
+
+
+}

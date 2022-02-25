@@ -29,8 +29,14 @@
     width: 50%;
     display: flex;
     justify-content: center; }
-    .trabajos div .a {
+    .trabajos div a {
       text-decoration: none; }
+      .trabajos div a h3 {
+        font-size: 1.063rem;
+        color: #4F4F4F;
+        font-family: 'Abel', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold; }
     .trabajos div img {
       width: 90%;
       margin: 50px; }
@@ -38,335 +44,417 @@
 .footer {
   background-color: #E3E3E3; }
 
+/* MEDIA QUERYS */
+@media (max-width: 576px) {
+  .trabajos {
+    flex-direction: column;
+    margin: 20px; }
+    .trabajos div {
+      width: 100%; }
+      .trabajos div a h3 {
+        visibility: hidden;
+        display: none; } }
+
 /* BE HEALTHY */
-.main {
+.main.trabajos {
   display: flex;
   flex-direction: column; }
-  .main .section {
+  .main.trabajos .section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
     margin: 3.75em;
-    align-items: center; }
-    .main .section .textosTrabajo {
+    align-content: space-between; }
+    .main.trabajos .section .textosTrabajo {
       display: flex;
       flex-direction: column;
       width: 50%; }
-      .main .section .textosTrabajo p {
+      .main.trabajos .section .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section .textosTrabajo h3 {
+      .main.trabajos .section .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section .textosTrabajo div img {
-        width: 50%; }
-  .main .divisor {
+    .main.trabajos .section .imagen2 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      width: 40%; }
+  .main.trabajos .divisor {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #E3E3E3;
     height: 6em;
-    align-items: center; }
-    .main .divisor p {
+    align-items: center;
+    width: 100%; }
+    .main.trabajos .divisor p {
       font-size: 0.9375em;
       font-family: 'Abel', sans-serif;
       font-family: 'Source Code Pro', monospace;
       font-weight: bold;
       text-align: start; }
-  .main .section2 {
+  .main.trabajos .section2 {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
     margin: 3.75em;
     align-items: center; }
-    .main .section2 .textosTrabajo {
+    .main.trabajos .section2 .textosTrabajo {
       display: flex;
       flex-direction: column;
-      width: 50%; }
-      .main .section2 .textosTrabajo p {
+      width: 50%;
+      margin: 3em; }
+      .main.trabajos .section2 .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section2 .textosTrabajo h3 {
+      .main.trabajos .section2 .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section2 .textosTrabajo img {
-        width: 50%; }
+
+/* MEDIA QUERYS */
+@media (max-width: 576px) {
+  .main.trabajos .section {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section .imagen2 {
+      width: 100%;
+      padding: 20px; }
+  .main.trabajos .divisor {
+    flex-direction: column;
+    padding: 20px; }
+  .main.trabajos .section2.trabajos {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section2.trabajos .imagen2 {
+      width: 100%;
+      padding: 20px; } }
 
 /* CINEMATODAY */
-.main {
+.main.trabajos {
   display: flex;
   flex-direction: column; }
-  .main .section {
+  .main.trabajos .section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
     margin: 3.75em;
-    align-items: center; }
-    .main .section .textosTrabajo {
+    align-content: space-between; }
+    .main.trabajos .section .textosTrabajo {
       display: flex;
       flex-direction: column;
       width: 50%; }
-      .main .section .textosTrabajo p {
+      .main.trabajos .section .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section .textosTrabajo h3 {
+      .main.trabajos .section .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section .textosTrabajo div img {
-        width: 50%; }
-  .main .divisor {
+    .main.trabajos .section .imagen2 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      width: 40%; }
+  .main.trabajos .divisor {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #E3E3E3;
     height: 6em;
-    align-items: center; }
-    .main .divisor p {
+    align-items: center;
+    width: 100%; }
+    .main.trabajos .divisor p {
       font-size: 0.9375em;
       font-family: 'Abel', sans-serif;
       font-family: 'Source Code Pro', monospace;
       font-weight: bold;
       text-align: start; }
-  .main .section2 {
+  .main.trabajos .section2 {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
     margin: 3.75em;
     align-items: center; }
-    .main .section2 .textosTrabajo {
+    .main.trabajos .section2 .textosTrabajo {
       display: flex;
       flex-direction: column;
       width: 50%;
       margin: 3em; }
-      .main .section2 .textosTrabajo p {
+      .main.trabajos .section2 .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section2 .textosTrabajo h3 {
+      .main.trabajos .section2 .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section2 .textosTrabajo img {
-        width: 50%; }
+
+/* MEDIA QUERYS */
+@media (max-width: 576px) {
+  .main.trabajos .section {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section .imagen2 {
+      width: 100%;
+      padding: 20px; }
+  .main.trabajos .divisor {
+    flex-direction: column;
+    padding: 20px; }
+  .main.trabajos .section2.trabajos {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section2.trabajos .imagen2 {
+      width: 100%;
+      padding: 20px; } }
 
 /* HAPPY FEEL */
-.main {
+.main.trabajos {
   display: flex;
   flex-direction: column; }
-  .main .section {
+  .main.trabajos .section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
     margin: 3.75em;
-    align-items: center; }
-    .main .section .textosTrabajo {
+    align-content: space-between; }
+    .main.trabajos .section .textosTrabajo {
       display: flex;
       flex-direction: column;
       width: 50%; }
-      .main .section .textosTrabajo p {
+      .main.trabajos .section .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section .textosTrabajo h3 {
+      .main.trabajos .section .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section .textosTrabajo div img {
-        width: 50%; }
-  .main .divisor {
+    .main.trabajos .section .imagen2 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      width: 40%; }
+  .main.trabajos .divisor {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #E3E3E3;
     height: 6em;
-    align-items: center; }
-    .main .divisor p {
+    align-items: center;
+    width: 100%; }
+    .main.trabajos .divisor p {
       font-size: 0.9375em;
       font-family: 'Abel', sans-serif;
       font-family: 'Source Code Pro', monospace;
       font-weight: bold;
       text-align: start; }
-  .main .section2 {
+  .main.trabajos .section2 {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
     margin: 3.75em;
     align-items: center; }
-    .main .section2 .textosTrabajo {
+    .main.trabajos .section2 .textosTrabajo {
       display: flex;
       flex-direction: column;
       width: 50%;
       margin: 3em; }
-      .main .section2 .textosTrabajo p {
+      .main.trabajos .section2 .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section2 .textosTrabajo h3 {
+      .main.trabajos .section2 .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section2 .textosTrabajo img {
-        width: 50%; }
+
+/* MEDIA QUERYS */
+@media (max-width: 576px) {
+  .main.trabajos .section {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section .imagen2 {
+      width: 100%;
+      padding: 20px; }
+  .main.trabajos .divisor {
+    flex-direction: column;
+    padding: 20px; }
+  .main.trabajos .section2.trabajos {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section2.trabajos .imagen2 {
+      width: 100%;
+      padding: 20px; } }
 
 /* MINISTERIO PUBLICO */
-.main {
+.main.trabajos {
   display: flex;
   flex-direction: column; }
-  .main .section {
+  .main.trabajos .section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
     margin: 3.75em;
-    align-items: center; }
-    .main .section .textosTrabajo {
+    align-content: space-between; }
+    .main.trabajos .section .textosTrabajo {
       display: flex;
       flex-direction: column;
       width: 50%; }
-      .main .section .textosTrabajo p {
+      .main.trabajos .section .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section .textosTrabajo h3 {
+      .main.trabajos .section .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section .textosTrabajo div img {
-        width: 50%; }
-  .main .divisor {
+    .main.trabajos .section .imagen2 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      width: 40%; }
+  .main.trabajos .divisor {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #E3E3E3;
     height: 6em;
-    align-items: center; }
-    .main .divisor p {
+    align-items: center;
+    width: 100%; }
+    .main.trabajos .divisor p {
       font-size: 0.9375em;
       font-family: 'Abel', sans-serif;
       font-family: 'Source Code Pro', monospace;
       font-weight: bold;
       text-align: start; }
-  .main .section2 {
+  .main.trabajos .section2 {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
     margin: 3.75em;
     align-items: center; }
-    .main .section2 .textosTrabajo {
+    .main.trabajos .section2 .textosTrabajo {
       display: flex;
       flex-direction: column;
       width: 50%;
       margin: 3em; }
-      .main .section2 .textosTrabajo p {
+      .main.trabajos .section2 .textosTrabajo p {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: normal;
         text-align: start;
         padding: 01.25em; }
-      .main .section2 .textosTrabajo h3 {
+      .main.trabajos .section2 .textosTrabajo h3 {
         font-size: 0.9375em;
         font-family: 'Abel', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         text-align: start; }
-      .main .section2 .textosTrabajo img {
-        width: 50%; }
+
+/* MEDIA QUERYS */
+@media (max-width: 576px) {
+  .main.trabajos .section {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section .imagen2 {
+      width: 100%;
+      padding: 20px; }
+  .main.trabajos .divisor {
+    flex-direction: column;
+    padding: 20px; }
+  .main.trabajos .section2.trabajos {
+    flex-direction: column;
+    margin: 0; }
+    .main.trabajos .section2.trabajos .imagen2 {
+      width: 100%;
+      padding: 20px; } }
 
 /* CONTACTO */
-.headerHijo p {
-  font-size: 0.938em;
-  font-family: 'Abel', sans-serif;
-  font-family: 'Source Code Pro', monospace;
-  font-weight: normal;
-  padding: 1.25em;
-  text-align: center;
-  background-color: #E3E3E3; }
-
-.trabajosPadre1 {
-  min-height: 7.5em;
+.section.contacto {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
+  flex-wrap: nowrap;
+  margin: 3.75em;
+  align-content: space-between; }
+  .section.contacto .soy {
+    font-size: 1.2em;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    text-align: start;
+    padding: 3.25em;
+    width: 70%; }
 
-.trabajosPadre2 {
-  min-height: 7.5em;
+.btn {
+  background-color: #4F4F4F;
+  color: white; }
+
+.section.contacto2 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
+  margin: 3.75em; }
+  .section.contacto2 .sobreMi {
+    font-size: 1.2em;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    text-align: start;
+    padding: 2.25em;
+    width: 100%; }
 
-.yosoy {
-  margin-right: 9.375em;
-  margin-left: 2em;
-  margin-bottom: 2em;
-  margin-top: 2em;
-  float: left; }
-
-.buttondesc {
-  background-color: #E3E3E3; }
-
-.presentacion2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.presentacion2 p {
-  margin-left: 12.5em;
-  margin-right: 25em;
-  margin-bottom: 15.625em; }
-
-.presentacion1 {
-  padding-left: 12.5em; }
+/* MEDIA QUERYS */
+@media (max-width: 576px) {
+  .section.contacto {
+    flex-direction: column;
+    align-items: center; }
+    .section.contacto .soy {
+      padding: 1.25em;
+      width: 100%; }
+    .section.contacto .foto-personal {
+      width: 60%; } }
 
 .header nav {
   display: flex;
@@ -431,3 +519,26 @@
         font-family: 'Roboto', sans-serif;
         font-family: 'Source Code Pro', monospace;
         font-size: 0.9375em; }
+
+/* MEDIA QUERYS */
+@media (max-width: 576px) {
+  .header nav {
+    flex-direction: column;
+    align-items: center; }
+    .header nav h1 {
+      margin: 0.875em; }
+    .header nav ul {
+      flex-direction: row; }
+      .header nav ul li {
+        padding: 0 1em;
+        margin: 22px; }
+  .footer nav {
+    flex-direction: column;
+    align-items: center; }
+    .footer nav h1 {
+      margin: 0.875em; }
+    .footer nav ul {
+      flex-direction: row; }
+      .footer nav ul li {
+        padding: 0 1em;
+        margin: 22px; } }
